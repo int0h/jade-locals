@@ -1,0 +1,26 @@
+{
+  "name": "jade-locals",
+  "version": "1.0.0",
+  "description": "This is a small utility to get list of used varibles in jade template",
+  "main": "index.js",
+  "scripts": {
+    "test": "var jadeLocals = require('jade-locals');\\nconsole.log(jadeLocals('tag=value'))//['value']"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/int0h/jade-locals.git"
+  },
+  "keywords": [
+    "jade"
+  ],
+  "author": "int0h",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/int0h/jade-locals/issues"
+  },
+  "homepage": "https://github.com/int0h/jade-locals#readme",
+  "dependencies": {
+    "acorn-globals": "^2.0.0",
+    "jade": "^1.11.0"
+  }
+}
